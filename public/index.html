@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ujjwal Shivhare - DevOps Engineer</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+      background: radial-gradient(circle at top left, #000020, #01010f, #000);
+      color: #33c3ff;
+      overflow-x: hidden;
+    }
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .orbit {
+      position: absolute;
+      right: 5%;
+      top: 10%;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      animation: spin 60s linear infinite;
+      border: 2px dashed rgba(51, 195, 255, 0.3);
+    }
+    .orbit img {
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+      border: 4px solid #33c3ff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <pre>
+---
+name: Ujjwal Shivhare
+role: DevOps Engineer
+status: "Open to Work"
+location: India
+specialization:
+  - Cloud Infrastructure
+  - CI/CD Automation
+  - Container Orchestration
+  - Infrastructure as Code
+contact:
+  email: ujjwalshivhare62@gmail.com
+  phone: +91 6268636934
+social:
+  github: ujjwalshivhare
+  linkedin: ujjwal-shivhare
+    </pre>
+    <br>
+    <a href="mailto:ujjwalshivhare62@gmail.com" style="color:#33c3ff;">📧 Email Me</a> |
+    <a href="tel:+916268636934" style="color:#33c3ff;">📞 Call Me</a>
+  </div>
+  <div class="orbit">
+    <img src="profile.png" alt="Profile Image" />
+  </div>
+</body>
+</html>
